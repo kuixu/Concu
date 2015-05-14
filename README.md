@@ -23,15 +23,21 @@ Usage   :
 ```
 
 ### Example 
-Commandline list file.
-wgettask.list with 7 commandline list
+create Commandline list file formatted as 'wgettask.list' below. Concurrently run 5 task with 'Concu', until all tasks are completed.
+
 ``` shell
 $ cat wgettask.list
+wget http:/xxx.xxx.xxxx0.tar.gz
 wget http:/xxx.xxx.xxxx1.tar.gz
 wget http:/xxx.xxx.xxxx2.tar.gz
 wget http:/xxx.xxx.xxxx3.tar.gz
 wget http:/xxx.xxx.xxxx4.tar.gz
 wget http:/xxx.xxx.xxxx5.tar.gz
+wget http:/xxx.xxx.xxxx6.tar.gz
+wget http:/xxx.xxx.xxxx7.tar.gz
+wget http:/xxx.xxx.xxxx8.tar.gz
+wget http:/xxx.xxx.xxxx9.tar.gz
+
 
 $ java -jar concu.jar -f wgettask.list -t 5 -w wget
 
