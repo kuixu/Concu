@@ -7,7 +7,7 @@ Concu   : Concurrent to run optionally numbers of commamdline.
 https://github.com/barrykui/Concu/blob/master/bin/concu.jar
 
 ## Manual
-
+*Concu* is easy to use.
 
 ``` shell
 
@@ -23,7 +23,7 @@ Usage   :
 ```
 
 ### Example 
-create Commandline list file formatted as 'wgettask.list' below. Concurrently run 5 task with 'Concu', until all tasks are completed.
+Create commandline list file formatted as *wgettask.list* below. Concurrently run 5 task with [`Concu`](https://github.com/barrykui/Concu.git), until all tasks are completed.
 
 ``` shell
 $ cat wgettask.list
