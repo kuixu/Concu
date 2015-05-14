@@ -99,7 +99,6 @@ public class RunConcuShell {
 
 	/***
 	 * 进度显示时用的旋转的字符
-	 * 
 	 * @param i
 	 * @return
 	 */
@@ -126,16 +125,13 @@ public class RunConcuShell {
 		return a;
 	}
 
+
 	/***
-	 * 并发执行多个程序
-	 * 
-	 * @param sh
-	 *            可执行文�?
-	 * @param execs
-	 *            程序列表
-	 * @param isOutput
-	 *            是否显示执行结果
-	 * @param t
+	 * 并发执行多个程序	
+	 * @param sh 可执行文件
+	 * @param execs  程序列表
+	 * @param isOutput 是否显示执行结果
+	 * @param t 并发执行的线程数
 	 */
 	private static void runConcurrentShell(String sh, List<String> execs, boolean isOutput, int t) {
 		// TODO Auto-generated method stub
