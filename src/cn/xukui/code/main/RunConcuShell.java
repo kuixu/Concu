@@ -26,7 +26,7 @@ public class RunConcuShell {
 			System.out.println("Version : 1.0.1");
 			System.out.println("Usage   : ");
 			System.out.println(" -f  <str>    Commandline list file.");
-			System.out.println(" -t  <int>    Number of concurrent threads [1, 50]; ");
+			System.out.println(" -t  <int>    Number of concurrent threads [1, ~]; ");
 			System.out.println(" -w  <str>    Daemon name to be watched. eg.'java','wget'.");
 			System.out.println(" -v           View output.");
 			System.out.println("");
@@ -63,8 +63,8 @@ public class RunConcuShell {
 			case "-t":
 				try {
 					t = Integer.parseInt(args[i + 1]);
-					if (t < 1 || t > 50) {
-						System.err.println("-t should is not in [1, 50]");
+					if (t < 1 ) {
+						System.err.println("-t should is not in [1, ~]");
 						return;
 					}
 					i += 2;
