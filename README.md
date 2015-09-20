@@ -1,4 +1,4 @@
-# Concu
+# Concu 1.2
 Concu   : Concurrent to run optionally numbers of commamdline.
 
 
